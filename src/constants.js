@@ -1,0 +1,14 @@
+export const PASSOWRD_HASH_SALT = 10;
+export const JWT_TOKEN_EXPIRATION = 600;
+export const REFRESH_TOKEN_EXPIRATION = 3600;
+export const NUM_GENERATOR = {
+  MIN: 1,
+  MAX: 10000
+}
+
+export default {
+  PASSOWRD_HASH_SALT,
+  JWT_TOKEN_EXPIRATION,
+  REFRESH_TOKEN_EXPIRATION,
+  NUM_GENERATOR,
+};
